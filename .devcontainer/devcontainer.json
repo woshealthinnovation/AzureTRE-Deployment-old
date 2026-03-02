@@ -17,8 +17,8 @@
       // 		export DOCKER_GROUP_ID=$(getent group docker | awk -F ":" '{ print $3 }')
       "DOCKER_GROUP_ID": "${localEnv:DOCKER_GROUP_ID}",
       "INTERACTIVE": "true",
-      "UPSTREAM_REPO": "grritch/AzureTRE",
-      "UPSTREAM_REPO_VERSION": "v0.1.1",
+      "UPSTREAM_REPO": "microsoft/AzureTRE",
+      "UPSTREAM_REPO_VERSION": "v0.27.0",
       "GITHUB_TOKEN": ""
     }
   },
